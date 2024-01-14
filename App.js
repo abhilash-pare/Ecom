@@ -3,7 +3,8 @@ const express = require('express')
 const database = require('./Database2/config2')
 //const collection = require('./Database2/user')
 const path = require("path");
-const bcrypt = require('bcrypt');
+//const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const CryptoJS = require("crypto-js");
 require('dotenv').config(); // Load environment variables from a .env file
 
